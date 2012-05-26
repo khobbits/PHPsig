@@ -19,16 +19,16 @@
 	</tr>
 
 <?
-	$fp = @fopen("genlog.txt","r");
-	if ($fp) {
-		while (!feof($fp)) {
-			$buffer = fgets($fp);
-			echo $buffer;
-		}
-		fclose($fp);
-	} else {
-		echo "<tr><td>No Data found</td></tr>";
-	}
+$fp = @fopen("genlog.txt", "r");
+if ($fp) {
+    while (!feof($fp)) {
+        $buffer = fgets($fp);
+        echo $buffer;
+    }
+    fclose($fp);
+} else {
+    echo "<tr><td>No Data found</td></tr>";
+}
 ?>
 </table>
 

@@ -12,3 +12,8 @@ You will have to excuse my PHP, I wrote this in 2008, when I was just learning h
 Contributions
 -----------
 I'm not expecting much in the way of feedback or corrections to this code.  I'm posting it here primarily for display purposes.  If you do decide to edit/improve the code, feel free to drop me a pull request.
+
+Location
+-----------
+This code runs at: http://s.khhq.net
+This code is located at: https://github.com/khobbits/PHPsig

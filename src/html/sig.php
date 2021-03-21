@@ -4,12 +4,12 @@ include "../mal.php";
 include "../image.php";
 
 $time  = microtime(true);
-$rand  = @$_GET['rand'];
+$rand  = urlencode(@$_GET['rand']);
 $user = 'khobbits';
-$h = @$_GET['h'];
+$h = intval(@$_GET['h']);
 if ($h == '' || $h > 140)
     $h = 140;
-$w = @$_GET['w'];
+$w = intval(@$_GET['w']);
 if ($w == '' || $w > 600)
     $w = 600;
 header('Content-Type: image/png');

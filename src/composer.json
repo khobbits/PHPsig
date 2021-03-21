@@ -1,0 +1,7 @@
+{
+  "name": "khobbits/mal-api",
+  "description": "KHobbits MAL API",
+  "require": {
+    "kamermans/guzzle-oauth2-subscriber": "~1.0"
+  }
+}

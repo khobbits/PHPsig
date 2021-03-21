@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./src:/var/www/
+    environment:
+      - APP_ENV=development

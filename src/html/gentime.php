@@ -10,7 +10,6 @@
 		<th>Request Path</th>
 		<th>Image</th>
 		<th>PHP Action</th>
-		<th>XML Action</th>
 		<th>Exec Time</th>
 		<th>Image Load</th>
 		<th>Server Load</th>

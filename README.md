@@ -1,7 +1,11 @@
 PHPsig
 ======
 
-Dynamic rotating signature created in PHP using GD libraries
+Dynamic rotating signature created in PHP using GD libraries.
+This code will pull stats from the MyAnimeList API, using Oauth2.
+
+The older versions allow for multiple users, using the old XML API.
+The newer version does not, as it would require each user to perform the Oauth handshake.
 
 Excuses
 -----------
@@ -15,7 +19,7 @@ Make sure you have php with gd libraries.<br />
 Make sure you have the php curl library<br />
 Create a folder called 'mal_cache' thats script writeable<br />
 Make sure the genlog.txt file is script writeable<br />
-Configure the account name to poll in the sig.php (and maybe the debug.php if you want that).
+Trigger the first 'auth', using the auth.php to seed the token.
 
 Contributions
 -----------
